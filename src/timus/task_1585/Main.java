@@ -5,22 +5,23 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int a = in.nextInt();
-        int emperor = 0;
-        int macaroni = 0;
-        int little = 0;
-        for (int i = 0; i <= a; i++) {
-            String b = in.nextLine();
-            if (b.toLowerCase().equals("emperor penguin")){
-                emperor++;
-            } else if (b.toLowerCase().equals("macaroni penguin")) {
-                macaroni++;
-            }
-            else {
-                little++;
-            }
+        int n = Integer.parseInt(in.nextLine());
+        int a = 0;
+        int b = 0;
+        int c = 0;
+        for (int i = 0; i < n; i++) {
+            String s = in.nextLine();
+            String s1 = s.substring(0, 1);
+            if (s1.equals("E")) a++;
+            else if (s1.equals("M")) b++;
+            else c++;
         }
-        int result = Math.max(Math.max(emperor,macaroni),little);
-        System.out.println(result);
+
+        if (a >= b && a >= c) System.out.print("Emperor Penguin");
+        else if (b >= a && b >= c) System.out.print("Macaroni Penguin");
+        else System.out.print("Little Penguin");
+
+
     }
+
 }
