@@ -1,8 +1,6 @@
 package lab5;
 
-import java.time.LocalTime;
-
-public class Example4 {
+public class Task4 {
     public static void main(String[] args) throws InterruptedException {
         Thread number1 = new Thread(() -> {
             System.out.println(Thread.currentThread().getName() + ": " + 0);
