@@ -1,2 +1,8 @@
 # Project exclude paths
 /out/
+/src/lab7/example5/output.txt
+/src/lab7/example6/output.txt
+/src/lab7/example8/output.txt
+/src/lab7/example9/person.json
+/src/lab7/task4/final.txt
+/src/lab7/task8/fileOut.json
