@@ -2,6 +2,11 @@
   <library name="poi-5.2.3">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../../../../liba/jar_files/jar_files/poi-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../liba/jar_files/jar_files/poi-excelant-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../liba/jar_files/jar_files/poi-ooxml-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../liba/jar_files/jar_files/poi-ooxml-lite-5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../liba/jar_files/jar_files/SparseBitSet-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../liba/jar_files/jar_files/xmlbeans-5.1.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
